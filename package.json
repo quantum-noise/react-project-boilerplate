@@ -1,0 +1,51 @@
+{
+  "name": "react-project-boilerplate",
+  "description": "Yet another react project boilerplate",
+  "private": true,
+  "version": "0.0,1",
+  "homepage": "https://github.com/quantum-noise/react-project-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantum-noise/react-project-boilerplate"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": {
+    "name": "Aliaksandr Klimau"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack.config.js",
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "lint": "eslint src --ext .jsx,.js",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-react": "^7.7.0",
+    "html-webpack-plugin": "^3.1.0",
+    "http-proxy-middleware": "^0.18.0",
+    "husky": "^0.14.3",
+    "react-hot-loader": "^4.0.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
