@@ -2,7 +2,7 @@
   "name": "react-project-boilerplate",
   "description": "Yet another react project boilerplate",
   "private": true,
-  "version": "0.0,1",
+  "version": "0.0.1",
   "homepage": "https://github.com/quantum-noise/react-project-boilerplate",
   "repository": {
     "type": "git",
